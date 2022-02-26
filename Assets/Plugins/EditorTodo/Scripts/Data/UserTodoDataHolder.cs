@@ -51,6 +51,11 @@ namespace EditorTodo.Data
 
         public static TodoElementData GetElementData(int idx)
         {
+            if (ElementCount == 0)
+            {
+                return null;
+            }
+            
             idx = Mathf.Clamp(idx, 0, ElementCount);
             return CurrentTodoListData.elementDataList[idx];
         }

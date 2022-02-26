@@ -42,6 +42,8 @@ namespace EditorTodo.UI
                         ShowAddElementButton(lastTodoElementIdx + 1);
                     }
                 }
+                
+                GUILayout.FlexibleSpace();
             }
         }
 

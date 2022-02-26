@@ -96,14 +96,14 @@ namespace EditorTodo.UI
 
             // 移動できる方向のボタンのみ表示する
             var idx = UserTodoDataHolder.GetIdx(elementData);
-            if (idx == 0 || elementData.IsDone != UserTodoDataHolder.GetElementData(idx - 1).IsDone)
+            if (idx == 0 || elementData.IsDone != UserTodoDataHolder.GetElementData(idx - 1)?.IsDone)
             {
                 upStyle.normal.background = upStyle.focused.background;
                 upStyle.hover.background = upStyle.focused.background;
                 upStyle.onNormal.background = upStyle.onFocused.background;
                 upStyle.onHover.background = upStyle.onFocused.background;
             }
-            if (idx == UserTodoDataHolder.ElementCount - 1 || elementData.IsDone != UserTodoDataHolder.GetElementData(idx + 1).IsDone)
+            if (idx == UserTodoDataHolder.ElementCount - 1 || elementData.IsDone != UserTodoDataHolder.GetElementData(idx + 1)?.IsDone)
             {
                 downStyle.normal.background = downStyle.focused.background;
                 downStyle.hover.background = downStyle.focused.background;
