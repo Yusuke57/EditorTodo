@@ -5,13 +5,13 @@ namespace EditorTodo.UI
 {
     public static class EditorTodoMenu
     {
-        [MenuItem("Window/EditorTodo/OpenWindow")]
+        [MenuItem("Tools/EditorTodo/OpenWindow")]
         private static void OpenWindow()
         {
             EditorTodoWindow.Open();
         }
         
-        [MenuItem("Window/EditorTodo/DeleteTodoData")]
+        [MenuItem("Tools/EditorTodo/DeleteTodoData")]
         private static void DeleteUserData()
         {
             var isDelete = EditorUtility.DisplayDialog("DeleteTodoData",
