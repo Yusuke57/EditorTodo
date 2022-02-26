@@ -6,7 +6,7 @@ https://user-images.githubusercontent.com/27964732/155841634-60c78537-ab07-478a-
 
 ## 導入方法
 1. GitHubまたは下記unitypackageを利用して、Unityプロジェクトに導入  
-[EditorTodo_v1.0.unitypackage.zip](https://github.com/Yusuke57/EditorTodo/files/8146483/EditorTodo_v1.0.unitypackage.zip)
+[EditorTodo_v1.0.unitypackage.zip](https://github.com/Yusuke57/EditorTodo/files/8146530/EditorTodo_v1.0.unitypackage.zip)
 2. ツールバーの `Tools > EditorTodo > OpenWindow` でTodoウィンドウが開く
 
 ## 主な機能
